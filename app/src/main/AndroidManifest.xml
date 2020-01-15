@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.button">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/learnsura"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/learnsura"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".surafalaq"></activity>
+        <activity android:name=".suraekhlash" />
+        <activity android:name=".suralahab" />
+        <activity android:name=".suransor" />
+        <activity android:name=".surakafirun" />
+        <activity android:name=".suramaown" />
+        <activity android:name=".suraquarish" />
+        <activity android:name=".surafill" />
+        <activity android:name=".surakawsar" />
+        <activity android:name=".surafatiha" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
